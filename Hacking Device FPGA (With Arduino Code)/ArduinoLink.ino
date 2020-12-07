@@ -15,11 +15,11 @@ void loop() {
   if(mystr[0]==test){
     Serial.println("You're a hacker");
 
-    digitalWrite(12, LOW); // sets the digital pin 13 on
-    digitalWrite(13, LOW); // sets the digital pin 13 on     
+    digitalWrite(12, LOW); // sets the digital pin 12 off
+    digitalWrite(13, LOW); // sets the digital pin 13 off     
   } else {
     Serial.println("You failed");
     digitalWrite(13, HIGH); // sets the digital pin 13 on
-    digitalWrite(12, HIGH); // sets the digital pin 13 on
+    digitalWrite(12, HIGH); // sets the digital pin 12 on
   }
 }
